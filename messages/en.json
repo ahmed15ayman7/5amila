@@ -1,0 +1,104 @@
+{"navbar":{
+  "contact-us":"contact us",
+    "about_us": "About Us",
+    "hair_transplant": "Hair Transplant",
+    "cosmetic_surgery": "Cosmetic Surgery",
+    "blog": "Blog",
+    "free_consultation": "Free Consultation",
+    "hair_transplant_reviews": "Hair Transplant Reviews in Turkey",
+    "our_quality_standards": "Our Quality Standards",
+    "virtual_tour": "Virtual Tour of Our Hospital",
+    "in_the_media": "In the Media",
+    "partner_institutions": "Partner Institutions",
+    "dhi": "DHI Hair Transplant",
+    "sapphire": "Sapphire Hair Transplant",
+    "hairline_surgery": "Hairline Surgery",
+    "oxycure": "Oxycure Hair Treatment",
+    "african": "African Hair Transplant",
+    "eyebrow": "Eyebrow Transplant",
+    "facial_hair": "Facial Hair Transplants in Turkey",
+    "womens": "Women’s Hair Transplant in Turkey",
+    "sideburn": "Sideburn Transplant in Turkey",
+    "fut": "FUT Hair Transplant",
+    "mustache": "Mustache Transplant in Turkey",
+    "follicle_calculator": "Follicle Calculator",
+    "before_after": "Hair Transplant Before and After",
+    "post_care": "Post Hair Transplant Care",
+    "non_surgical": "Non-Surgical",
+    "gastric_bypass": "Gastric Bypass Surgery",
+    "gastric_sleeve": "Gastric Sleeve Turkey",
+    "tummy_tuck": "Tummy Tuck Surgery in Turkey",
+    "gastric_balloon": "Gastric Balloon Surgery in Turkey",
+    "arm_lift": "Arm Lift Surgery in Turkey",
+    "butt_lift": "Brazilian Butt Lift",
+    "liposuction": "Liposuction in Turkey",
+    "vaser_liposuction": "Vaser Liposuction",
+    "smartlipo": "SMARTLIPO™ Laser Liposuction",
+    "facelift": "Facelift and Neck Lift",
+    "nose_surgery": "Nose Surgery in Turkey",
+    "eyelid_surgery": "Eyelid Surgery",
+    "breast_reduction": "Breast Reduction in Turkey",
+    "breast_lift": "Breast Lift Surgery in Turkey",
+    "faqs": "Cosmetic Surgery FAQs"
+  },
+    "characteristics": {
+      "OurCharacteristics":"Our Characteristics",
+      "doctors": {
+        "title": "Doctors",
+        "description": "Experienced professionals in various specialties."
+      },
+      "visitors": {
+        "title": "Visitors",
+        "description": "Satisfied patients who trust our services."
+      },
+      "experience": {
+        "title": "Years of Experience",
+        "description": "Providing top-notch healthcare services."
+      },
+      "awards": {
+        "title": "Awards",
+        "description": "Recognized for excellence in medical care."
+      }
+    },
+    "blogs":{
+      "latestBlogPosts": "Latest Blog Posts",
+      "by": "By",
+      "date": "Date"
+    },
+    "feedbacks":{
+      "customerFeedback": "Customer Feedback"
+    },
+    "team":{
+      "ourTeam": "Our Team"
+    },
+    "Footer":{
+      "our_team": "Our Team",
+      "about_us": "About Us",
+      "our_clinic": "Our Clinic",
+      "contact_us": "Contact Us",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "about_us_content": "We are dedicated to providing exceptional care and support for our patients. Our team of experienced professionals is committed to ensuring your health and well-being.",
+      "visit_website": "Visit our website",
+      "online_consultation": "Online Consultation",
+      "all_rights_reserved": " 5amila. All rights reserved."
+    }
+    ,
+      "hair_transplant_procedure": {
+        "title": "Hair Transplant Procedures in Turkey",
+        "step_1_title": "Designing the Hairline",
+        "step_1_description": "The hairline will be designed and agreed upon before the hair transplant day. Markings will be placed on the hair area to ensure even distribution of the grafts.",
+        "step_2_title": "Extracting the Grafts",
+        "step_2_description": "In some hair transplant procedures in Turkey, it may be necessary to address risks associated with advanced techniques such as graft inspection.",
+        "step_3_title": "Preparing the Transplant Areas",
+        "step_3_description": "The recipient areas will be prepared where the surgeon will create small holes to implant the grafts.",
+        "step_4_title": "Implanting the Grafts",
+        "step_4_description": "The process of graft extraction used in hair transplantation in Turkey varies based on the technique used. Generally, graft extraction is performed using a specialized tool to create the hole.",
+        "step_5_title": "Sterilization and Final Preparation",
+        "step_5_description": "After extracting the grafts from the donor areas, the transplant area will be sterilized and finalized for the procedure.",
+        "step_6_title": "Planting the Hair",
+        "step_6_description": "The surgeon implants the hair in the prepared areas using specialized tools."
+      }
+    }
+    
