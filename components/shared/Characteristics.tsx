@@ -39,7 +39,7 @@ const Characteristics = () => {
         <h2 className="text-[40px] font-bold text-center mb-8">
           {t('characteristics.OurCharacteristics')}
         </h2>
-        <div className=" gap-6 flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {dataCharacteristics.map((item, index) => (
             <div
               key={index}
