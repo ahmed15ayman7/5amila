@@ -25,12 +25,12 @@ const Characteristics = () => {
       description: t('characteristics.experience.description'),
       icon: <FaClock size={50} className="w-12 h-12 text-primary-500 mx-auto" />,
     },
-    {
-      title: t('characteristics.awards.title'),
-      value: 10,
-      description: t('characteristics.awards.description'),
-      icon: <FaAward size={50} className="w-12 h-12 text-primary-500 mx-auto" />,
-    },
+    // {
+    //   title: t('characteristics.awards.title'),
+    //   value: 10,
+    //   description: t('characteristics.awards.description'),
+    //   icon: <FaAward size={50} className="w-12 h-12 text-primary-500 mx-auto" />,
+    // },
   ];
 
   return (
@@ -39,7 +39,7 @@ const Characteristics = () => {
         <h2 className="text-[40px] font-bold text-center mb-8">
           {t('characteristics.OurCharacteristics')}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className=" gap-6 flex justify-center">
           {dataCharacteristics.map((item, index) => (
             <div
               key={index}
