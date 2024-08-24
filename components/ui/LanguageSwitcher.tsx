@@ -32,7 +32,7 @@ const LanguageSwitcher: React.FC = () => {
         <Menu.Item key={lang.code} onClick={() => changeLanguage(lang.code)}>
           <div className="flex items-center">
             {lang.label}
-            <Image src={lang.flag} alt={lang.label} width={24} height={24} className="mx-2" />
+            <Image src={lang.flag} alt={lang.label} width={24} height={24} className="mx-2  " />
           </div>
         </Menu.Item>
       ))}
@@ -43,7 +43,7 @@ const LanguageSwitcher: React.FC = () => {
     <Dropdown overlay={menu} trigger={['click']}>
       <Button>
         {languages.find((lang) => lang.code === language)?.label || 'Select Language'} 
-        <Image src={languages.find((lang) => lang.code === language)?.flag||"/images/en.png"} alt={languages.find((lang) => lang.code === language)?.label|| 'Select Language'} width={24} height={24} className="mx-2" />
+        <Image src={languages.find((lang) => lang.code === language)?.flag||"/images/en.png"} alt={languages.find((lang) => lang.code === language)?.label|| 'Select Language'} width={24} height={24} className="mx-2 max-sm:hidden" />
          {/* <DownOutlined /> */}
       </Button>
     </Dropdown>

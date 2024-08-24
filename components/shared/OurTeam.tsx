@@ -22,7 +22,7 @@ const OurTeam = () => {
           <div key={index} className="w-40 border-2 rounded-lg shadow-lg overflow-hidden">
             <div className="relative">
               <Image
-                src="/images/test.png"
+                src="/images/test5.png"
                 alt="It's a chef"
                 layout="responsive"
                 width={100}
