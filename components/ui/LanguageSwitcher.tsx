@@ -40,7 +40,7 @@ const LanguageSwitcher: React.FC = () => {
   );
 
   return (
-    <Dropdown overlay={menu} trigger={['click']}>
+    <Dropdown  overlay={menu} trigger={['hover']}>
       <Button>
         {languages.find((lang) => lang.code === language)?.label || 'Select Language'} 
         <Image src={languages.find((lang) => lang.code === language)?.flag||"/images/en.png"} alt={languages.find((lang) => lang.code === language)?.label|| 'Select Language'} width={24} height={24} className="mx-2 max-sm:hidden" />
