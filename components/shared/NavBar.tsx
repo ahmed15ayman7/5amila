@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Menu, Layout, Button, Drawer } from "antd";
 import { CloseCircleFilled, MenuOutlined } from "@ant-design/icons";
 import LanguageSwitcher from "../ui/LanguageSwitcher";
@@ -30,14 +30,29 @@ const Navbar = ({
   const newPath = `${pathName.substring(0, 3)}`;
   const menuItems: MenuItem[] = NavItems(t);
   const [drawerVisible, setDrawerVisible] = useState(false);
+  const [headerBg, setHeaderBg] = useState("transparent");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setHeaderBg(isDarkMode ? "#000000" : "#ffffff"); // تغيير لون الخلفية عند التمرير
+      } else {
+        setHeaderBg("transparent");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isDarkMode]);
 
   const renderMenuItems = (items: MenuItem[]): React.ReactNode => {
     return items.map((item) => {
       if (item.children) {
         return (
           <Menu.SubMenu
-            
-            className={`md:text-center text-sm md:min-w-[${ item.key === "/cosmetic-surgery" ? "200px" : "150px" }] font-bold px-2`}
+            className={`md:text-center text-sm md:min-w-[${
+              item.key === "/cosmetic-surgery" ? "200px" : "150px"
+            }] font-bold px-2`}
             key={item.key}
             title={item.label}
           >
@@ -47,8 +62,8 @@ const Navbar = ({
       }
       return (
         <Menu.Item
-          style={{ flex: 1, }}
-          className={`md:text-center md:min-w-[${ item.key === "/blog" ? "50px" : "250px" }] font-bold`}
+          style={{ flex: 1 }}
+          className={`md:text-center md:min-w-[280px] font-bold`}
           key={item.key}
         >
           <Link
@@ -74,7 +89,7 @@ const Navbar = ({
       }`}
     >
       <Header
-        className={`py-16 p-2 bg-transparent ${
+        className={`py-12 p-2 bg-${headerBg} fixed w-full z-50 transition-all duration-300 ${
           isDarkMode ? "text-black" : "text-white"
         }`}
         style={{
@@ -85,7 +100,7 @@ const Navbar = ({
       >
         <div>
           <Link href={newPath}>
-            <Image src="/images/logo.png" alt="logo" width={200} height={100} />
+            <Image src="/images/logo.png" alt="logo" width={150} height={70} />
           </Link>
         </div>
         <div className="flex md:gap-9 gap-2 items-center">
@@ -100,35 +115,34 @@ const Navbar = ({
           >
             {renderMenuItems(menuItems)}
           </Menu>
-          <LanguageSwitcher />
+          <LanguageSwitcher newPath={newPath.slice(1)} />
           <Button
             className="md:hidden"
-            icon={<MenuOutlined style={{ color: "#0000000" }} />} // تغيير لون الأيقونة إلى الأبيض
+            icon={<MenuOutlined style={{ color: "#ffffff" }} />} // تغيير لون الأيقونة إلى الأبيض
             onClick={() => setDrawerVisible(true)}
           />
         </div>
       </Header>
       <Drawer
-        title={<Image src="/images/logo.png" alt="logo" width={200} height={100} />} // تغيير لون العنوان إلى الأبيض
-        placement={newPath==="/en"?"left":"right"}
-        closeIcon={<CloseCircleFilled style={{ color: "#ffffff",fontSize:"30px" }}/>}
+        title={
+          <Image src="/images/logo.png" alt="logo" width={200} height={100} />
+        } // تغيير لون العنوان إلى الأبيض
+        placement={newPath === "/en" ? "left" : "right"}
+        closeIcon={<CloseCircleFilled style={{ color: "#ffffff", fontSize: "30px" }} />}
         closable={true}
         onClose={handleDrawerClose}
-        
         open={drawerVisible}
         width={320} // تكبير عرض الـ Drawer
         style={{
           backgroundColor: "rgba(0, 0, 0, 0.8)",
-          // color: "#f0f0f0", // خلفية شفافة قريبة للأسود
         }}
-      
       >
         <Menu
           mode="inline"
           className="bg-transparent"
           theme="dark"
           style={{
-            backgroundColor: "transparent", // للحفاظ على الخلفية الشفافة
+            backgroundColor: "transparent",
           }}
         >
           {renderMenuItems(menuItems)}
