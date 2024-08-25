@@ -7,7 +7,7 @@ import {
   LinkedinOutlined,
 } from '@ant-design/icons';
 import { useTranslations } from 'next-intl';
-
+ 
 const OurTeam = () => {
   const t = useTranslations('team');
 
