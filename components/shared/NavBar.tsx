@@ -36,7 +36,6 @@ const Navbar = ({
       if (item.children) {
         return (
           <Menu.SubMenu
-            
             className={`md:text-center text-sm md:min-w-[${ item.key === "/cosmetic-surgery" ? "200px" : "150px" }] font-bold px-2`}
             key={item.key}
             title={item.label}
@@ -48,7 +47,7 @@ const Navbar = ({
       return (
         <Menu.Item
           style={{ flex: 1, }}
-          className={`md:text-center md:min-w-[${ item.key === "/blog" ? "50px" : "250px" }] font-bold`}
+          className={`md:text-center md:min-w-[280px] font-bold`}
           key={item.key}
         >
           <Link
@@ -74,7 +73,7 @@ const Navbar = ({
       }`}
     >
       <Header
-        className={`py-16 p-2 bg-transparent ${
+        className={`py-12 p-2 bg-transparent ${
           isDarkMode ? "text-black" : "text-white"
         }`}
         style={{
@@ -114,7 +113,6 @@ const Navbar = ({
         closeIcon={<CloseCircleFilled style={{ color: "#ffffff",fontSize:"30px" }}/>}
         closable={true}
         onClose={handleDrawerClose}
-        
         open={drawerVisible}
         width={320} // تكبير عرض الـ Drawer
         style={{
@@ -128,7 +126,7 @@ const Navbar = ({
           className="bg-transparent"
           theme="dark"
           style={{
-            backgroundColor: "transparent", // للحفاظ على الخلفية الشفافة
+            backgroundColor: "transparent", 
           }}
         >
           {renderMenuItems(menuItems)}
