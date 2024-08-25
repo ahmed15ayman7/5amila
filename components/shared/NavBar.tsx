@@ -85,7 +85,7 @@ const Navbar = ({
       >
         <div>
           <Link href={newPath}>
-            <Image src="/images/logo.png" alt="logo" width={200} height={100} />
+            <Image src="/images/logo.png" alt="logo" width={150} height={70} />
           </Link>
         </div>
         <div className="flex md:gap-9 gap-2 items-center">

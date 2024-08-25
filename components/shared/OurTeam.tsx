@@ -18,8 +18,11 @@ const OurTeam = () => {
       </h2>
       <div className="flex flex-wrap justify-center gap-6">
         {/* Team Member Card */}
-        {Array(4).fill(0).map((_, index) => ( // Creates 4 cards dynamically
-          <div key={index} className="w-40 border-2 rounded-lg shadow-lg overflow-hidden">
+        {Array(4).fill(0).map((_, index) => (
+          <div
+            key={index}
+            className="w-60 border-2 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+          >
             <div className="relative">
               <Image
                 src="/images/test5.png"
