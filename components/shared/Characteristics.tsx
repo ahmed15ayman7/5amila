@@ -40,6 +40,7 @@ const Characteristics = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
+
           {dataCharacteristics.map((item, index) => (
             <motion.div
               key={index}

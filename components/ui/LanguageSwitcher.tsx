@@ -1,6 +1,5 @@
 import useStore from '@/lib/zustand/store';
 import { Menu, Dropdown, Button } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
 import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 
@@ -15,7 +14,7 @@ const languages: Language[] = [
   { code: 'en', label: 'En', flag: '/images/en.svg' },
 ];
 
-const LanguageSwitcher: React.FC = () => {
+const LanguageSwitcher= ({newPath}:{newPath:string}) => {
   const { language, setLanguage } = useStore();
   let pathName=usePathname()
     const router=useRouter()
@@ -40,11 +39,11 @@ const LanguageSwitcher: React.FC = () => {
   );
 
   return (
-    <Dropdown overlay={menu} trigger={['click']}>
+    <Dropdown overlay={menu} trigger={['hover']}>
+
       <Button>
-        {languages.find((lang) => lang.code === language)?.label || 'Select Language'} 
-        <Image src={languages.find((lang) => lang.code === language)?.flag||"/images/en.png"} alt={languages.find((lang) => lang.code === language)?.label|| 'Select Language'} width={24} height={24} className="mx-2 max-sm:hidden" />
-         {/* <DownOutlined /> */}
+        {languages.find((lang) => (lang.code === newPath && lang.code === language)||lang.code ===newPath)?.label || 'Select Language'} 
+        <Image src={languages.find((lang) => (lang.code === newPath && lang.code === language)||lang.code ===newPath)?.flag||"/images/en.png"} alt={languages.find((lang) => lang.code === language)?.label|| 'Select Language'} width={24} height={24} className="mx-2 max-sm:hidden" />
       </Button>
     </Dropdown>
   );
