@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 const Blog = () => {
   return (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {posts.map(post => (
             <div key={post.title} className="bg-white p-4 rounded-lg shadow-md">
               <div className="w-full h-48 object-cover relative rounded-t-lg">
@@ -58,6 +58,18 @@ const posts = [
     date: "July 22, 2024",
     image: "/images/test.png",
     excerpt: "In our fast-paced world, reaching for an energy drink...",
+  },
+  {
+    title: "When is the Best Time to Get a Hair Transplant Treatment?",
+    date: "July 17, 2024",
+    image: "/images/test.png",
+    excerpt: "Hair loss is a condition that affects millions...",
+  },
+  {
+    title: "When is the Best Time to Get a Hair Transplant Treatment?",
+    date: "July 17, 2024",
+    image: "/images/test.png",
+    excerpt: "Hair loss is a condition that affects millions...",
   },
   {
     title: "When is the Best Time to Get a Hair Transplant Treatment?",
