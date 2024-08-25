@@ -102,7 +102,7 @@ const Navbar = ({
           alignItems: "center",
         }}
       >
-        <div>
+        <div className="transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
           <Link href={newPath}>
             <Image src="/images/logo.png" alt="logo" width={150} height={70} />
           </Link>

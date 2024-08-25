@@ -83,6 +83,7 @@ export let NavItems=(t:any)=> [
       { label: t("follicle_calculator"), label2: "follicle_calculator", key: "follicle-calculator" },
       { label: t("before_after"), label2: "before_after", key: "before-after" },
       { label: t("post_care"), label2: "post_care", key: "post-care" },
+
       { label: t("faqs"), label2: "faqs", key: "faqs" },
     ],
   },
