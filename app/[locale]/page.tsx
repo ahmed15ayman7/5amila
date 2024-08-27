@@ -1,4 +1,5 @@
 'use client'
+import LandingPage from '@/components/pages/LandingPage';
 import BlogPage from '@/components/shared/BlogPosts';
 import Characteristics from '@/components/shared/Characteristics';
 import FeedbackComponent from '@/components/shared/Feedbacks';
@@ -11,6 +12,7 @@ export default function Home() {
 
   return (
     <div>
+      <LandingPage />
       <HairTransplantProcedure/>
       <Characteristics/>
       <OurTeam/>
