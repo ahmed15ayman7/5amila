@@ -27,9 +27,9 @@ let isDarkMode=true
     // <ConfigProvider theme={isDarkMode ? darkTheme : lightTheme}>
       <div>
       <Navbar setIsDarkMode={()=>{}} isDarkMode={isDarkMode} />
-      <div className="flex w-full flex-col min-h-screen mx-auto">
+      <div className="flex w-full flex-col min-h-screen  mx-auto">
         
-        <div className={`w-full flex-grow  
+        <div className={`w-full flex-grow  pt-0
               bg-primary-500 
               `}>{children}</div>
       </div>

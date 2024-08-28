@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
           <div className="mb-8 md:mb-0 md:w-1/3">
             <div className="flex items-center mb-4">
               <Image
-                src="/images/logo.png" // Replace with your logo path
+                src="/images/logo.png" 
                 alt="Company Logo"
-                width={80} // Adjust width as needed
-                height={80} // Adjust height as needed
+                width={80}
+                height={80} 
                 className="rounded-full shadow-xl"
               />
               <h2 className="text-2xl font-semibold ml-4">{t('about_us')}</h2>
@@ -72,13 +72,13 @@ const Footer: React.FC = () => {
         href="https://www.5amila.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 left-6  text-white p-4 rounded-full shadow-xl hover:bg-gray-700 transition duration-300"
+        className="fixed bottom-6 left-6  text-white md:p-4 rounded-full shadow-xl hover:bg-gray-700 transition duration-300"
         aria-label="Visit our website"
       >
         <Button
+        className=" max-sm:p-[10px] p-[20px] "
       type="primary"
       style={{
-        padding:"20px",
         backgroundColor: '#64c1e8',
         borderColor: '#64c1e8',
         display: 'flex',
@@ -87,9 +87,9 @@ const Footer: React.FC = () => {
         borderRadius: '8px',
       }}
     >
-        <IoLogoWechat size={30} style={{ marginRight: '8px' }}/>
+        <IoLogoWechat size={30} className=" max-sm:mr-[0px] mr-[8px] " />
       {/* <FaUserCircle  /> */}
-      {t('visit_website')}
+     <p className=" max-sm:hidden ">{t('visit_website')}</p> 
     </Button>
 
       </a>
