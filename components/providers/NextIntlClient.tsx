@@ -29,7 +29,7 @@ let isDarkMode=true
       <Navbar setIsDarkMode={()=>{}} isDarkMode={isDarkMode} />
       <div className="flex w-full flex-col min-h-screen  mx-auto">
         
-        <div className={`w-full flex-grow  pt-10
+        <div className={`w-full flex-grow  pt-0
               bg-primary-500 
               `}>{children}</div>
       </div>
