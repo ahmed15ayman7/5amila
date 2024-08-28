@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
           <div className="mb-8 md:mb-0 md:w-1/3">
             <div className="flex items-center mb-4">
               <Image
-                src="/images/logo.png" // Replace with your logo path
+                src="/images/logo.png" 
                 alt="Company Logo"
-                width={80} // Adjust width as needed
-                height={80} // Adjust height as needed
+                width={80}
+                height={80} 
                 className="rounded-full shadow-xl"
               />
               <h2 className="text-2xl font-semibold ml-4">{t('about_us')}</h2>
