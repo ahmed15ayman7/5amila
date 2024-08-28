@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
   const t = useTranslations('Footer');
 
   return (
-    <footer className="relative bg-gray-900 text-white py-12">
+    <footer className="relative bg-gray-900 text-white py-12 w-">
       <div className="container mx-auto px-6 md:px-12">
-        <div className="flex flex-col md:flex-row justify-between gap-8">
+        <div className="flex flex-col md:flex-row justify-between gap-8 round">
           {/* About Us Section */}
           <div className="mb-8 md:mb-0 md:w-1/3">
             <div className="flex items-center mb-4">
