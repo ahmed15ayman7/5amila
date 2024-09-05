@@ -129,7 +129,7 @@ const Navbar = ({
       </Header>
       <Drawer
         title={
-          <Image src="/images/logo.png" alt="logo" width={200} height={100} />
+          <Image src="/images/NEW.png" alt="logo" width={200} height={100} />
         } // تغيير لون العنوان إلى الأبيض
         placement={newPath === "/en" ? "left" : "right"}
         closeIcon={<CloseCircleFilled style={{ color: "#ffffff", fontSize: "30px" }} />}

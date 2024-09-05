@@ -7,9 +7,9 @@ const LandingPage: React.FC = () => {
 let prePath=path.slice(0,3)
   return (
     <section
-      className="h-screen"
+      className="h-screen bg-no-repeat bg-cover bg-center"
       style={{
-        backgroundImage: `url('/images/test.png')`,
+        backgroundImage: `url('/images/laptop.webp')`,
       }}>
       <div className="overlay-background-image">
         <div className="flex h-full w-full items-center justify-center container mx-auto px-8 py-44 text-black font-extrabold">
@@ -17,7 +17,7 @@ let prePath=path.slice(0,3)
             <h1
               className="text-3xl sm:text-5xl lg:text-7xl text-black font-extrabold"
               data-aos="fade-up-left">
-              حلول الامكان العقاريه
+              Welcome To 5amila
             </h1>
             {/* <p className="mt-6 lg:text-3xl text-white" data-aos="fade-up-left">
             معنا تجد الحلول العقارية التي تناسب احتياجاتك
