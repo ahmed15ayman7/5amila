@@ -4,7 +4,7 @@ import Blog from "@/components/pages/Blog";
 import FreeConsultation from "@/components/pages/FreeConsultation";
 import HairTransplantReviews from "@/components/pages/HairTransplantReviews";
 import OurQualityStandards from "@/components/pages/OurQualityStandards";
-import VirtualTour from "@/components/pages/VirtualTour";
+// import VirtualTour from "@/components/pages/VirtualTour";
 import IntheMedia from "@/components/pages/IntheMedia";
 import PartnerInstitutions from "@/components/pages/PartnerInstitutions";
 import DHI from "@/components/pages/DHI";
@@ -31,7 +31,7 @@ export const Pages = {
   free_consultation: <FreeConsultation />,
   hair_transplant_reviews: <HairTransplantReviews />,
   our_quality_standards: <OurQualityStandards />,
-  virtual_tour: <VirtualTour />,
+  // virtual_tour: <VirtualTour />,
   in_the_media: <IntheMedia />,
   partner_institutions: <PartnerInstitutions />,
   dhi: <DHI />,
@@ -59,7 +59,7 @@ export let NavItems=(t:any)=> [
       { label: t("about_us"), label2: "about_us", key: "about-us-detail" },
       { label: t("hair_transplant_reviews"), label2: "hair_transplant_reviews", key: "reviews" },
       { label: t("our_quality_standards"), label2: "our_quality_standards", key: "quality-standards" },
-      { label: t("virtual_tour"), label2: "virtual_tour", key: "virtual-tour" },
+      // { label: t("virtual_tour"), label2: "virtual_tour", key: "virtual-tour" },
       { label: t("in_the_media"), label2: "in_the_media", key: "media" },
       { label: t("partner_institutions"), label2: "partner_institutions", key: "partner-institutions" },
     ],
