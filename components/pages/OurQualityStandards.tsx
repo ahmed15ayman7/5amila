@@ -22,7 +22,7 @@ const OurQualityStandards = () => {
           animate="visible"
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
-          Our Quality Standards
+          Our Quality Standardss
         </motion.h1>
         <motion.p
           className="text-lg leading-relaxed text-gray-600 mb-12 text-center"
