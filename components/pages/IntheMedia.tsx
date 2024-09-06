@@ -64,7 +64,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test1.png" alt="Partner 1" className="h-16 w-auto object-contain" />
+              <img src="/images/partner1.webp" alt="Partner 1" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -73,7 +73,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test2.png" alt="Partner 2" className="h-16 w-auto object-contain" />
+              <img src="/images/partner2.webp" alt="Partner 2" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -82,7 +82,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test3.png" alt="Partner 3" className="h-16 w-auto object-contain" />
+              <img src="/images/partner3.webp" alt="Partner 3" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -91,7 +91,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test4.png" alt="Partner 4" className="h-16 w-auto object-contain" />
+              <img src="/images/partner4.webp" alt="Partner 4" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -100,7 +100,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test5.png" alt="Partner 5" className="h-16 w-auto object-contain" />
+              <img src="/images/partner5.webp" alt="Partner 5" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -109,7 +109,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test6.png" alt="Partner 6" className="h-16 w-auto object-contain" />
+              <img src="/images/partner6.webp" alt="Partner 6" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -118,7 +118,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test7.png" alt="Partner 7" className="h-16 w-auto object-contain" />
+              <img src="/images/partner7.webp" alt="Partner 7" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -127,7 +127,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test8.png" alt="Partner 8" className="h-16 w-auto object-contain" />
+              <img src="/images/partner8.webp" alt="Partner 8" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -136,7 +136,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test9.png" alt="Partner 9" className="h-16 w-auto object-contain" />
+              <img src="/images/partner9.webp" alt="Partner 9" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -145,7 +145,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test10.png" alt="Partner 10" className="h-16 w-auto object-contain" />
+              <img src="/images/partner10.webp" alt="Partner 10" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -154,7 +154,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test11.png" alt="Partner 11" className="h-16 w-auto object-contain" />
+              <img src="/images/partner11.webp" alt="Partner 11" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -163,7 +163,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test12.png" alt="Partner 12" className="h-16 w-auto object-contain" />
+              <img src="/images/partner12.webp" alt="Partner 12" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -172,7 +172,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test13.png" alt="Partner 13" className="h-16 w-auto object-contain" />
+              <img src="/images/partner13.webp" alt="Partner 13" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -181,7 +181,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test14.png" alt="Partner 14" className="h-16 w-auto object-contain" />
+              <img src="/images/partner14.webp" alt="Partner 14" className="h-16 w-auto object-contain" />
             </motion.div>
             <motion.div
               className="flex justify-center items-center p-4 bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:scale-105"
@@ -190,7 +190,7 @@ const MediaAndPartners = () => {
               animate="visible"
               transition={{ duration: 0.5, ease: "easeInOut" }}
             >
-              <img src="/images/test15.png" alt="Partner 15" className="h-16 w-auto object-contain" />
+              <img src="/images/partner15.webp" alt="Partner 15" className="h-16 w-auto object-contain" />
             </motion.div>
           </div>
         </motion.div>
