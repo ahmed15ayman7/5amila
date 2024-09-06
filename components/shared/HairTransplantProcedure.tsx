@@ -19,7 +19,7 @@ const HairTransplantProcedure: React.FC = () => {
             <div key={index} className={`flex items-start ${lang==="ar"?"animate-slideInRight":"animate-slideInLeft"} `}>
               <div className="flex-shrink-0 mx-6">
                 <Image
-                  src="/images/test2.png"
+                  src="/images/laptop.webp"
                   alt={`Step ${index + 1}`}
                   width={64}
                   height={64}
@@ -42,7 +42,7 @@ const HairTransplantProcedure: React.FC = () => {
             <div key={index + 3} className={`flex items-start ${lang==="en"?"animate-slideInRight":"animate-slideInLeft"} `}>
               <div className="flex-shrink-0 mx-6">
                 <Image
-                  src="/images/test2.png"
+                  src="/images/laptop.webp"
                   alt={`Step ${index + 4}`}
                   width={64}
                   height={64}
