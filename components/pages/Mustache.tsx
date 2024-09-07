@@ -6,7 +6,7 @@ const MustacheHairTransplantInfo: React.FC = () => {
       {/* Header Image */}
       <div className="relative mb-6">
         <img
-          src="/images/mustache-header.webp" // Replace with your header image path
+          src="/images/Moustache-Hair-Transplant.webp" // Replace with your header image path
           alt="Mustache Hair Transplant in Turkey"
           className="w-full h-96 object-cover rounded-lg"
         />
