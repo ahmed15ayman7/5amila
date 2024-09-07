@@ -7,6 +7,7 @@ import {
   LinkedinOutlined,
 } from '@ant-design/icons';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const OurTeam = () => {
   const t = useTranslations('team');
@@ -41,24 +42,24 @@ const OurTeam = () => {
           </div>
           <ul className="flex justify-around p-2 bg-gray-100 rounded-b-md">
             <li>
-              <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://twitter.com/yourprofile" passHref>
                 <TwitterOutlined className="text-2xl" style={{ color: '#1DA1F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://facebook.com/yourprofile" passHref>
                 <FacebookOutlined className="text-2xl" style={{ color: '#1877F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://instagram.com/yourprofile" passHref>
                 <InstagramOutlined className="text-2xl" style={{ color: '#E1306C' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/yourprofile" passHref>
                 <LinkedinOutlined className="text-2xl" style={{ color: '#0A66C2' }} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -68,11 +69,9 @@ const OurTeam = () => {
           <div className="relative">
             <Image
               src="/images/doc2.jpg"
-              width={80}
-              height={60}           
+              width={400}
+              height={600}
               alt="Team Member 2"
-              layout="fill" // Adjust layout to 'fill'
-              className="object-cover w-full h-full" // Use object-cover to fit
             />
             <div className="absolute inset-x-0 bottom-0">
               <svg
@@ -87,24 +86,24 @@ const OurTeam = () => {
           </div>
           <ul className="flex justify-around p-2 bg-gray-100 rounded-b-md">
             <li>
-              <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://twitter.com/yourprofile" passHref>
                 <TwitterOutlined className="text-2xl" style={{ color: '#1DA1F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://facebook.com/yourprofile" passHref>
                 <FacebookOutlined className="text-2xl" style={{ color: '#1877F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://instagram.com/yourprofile" passHref>
                 <InstagramOutlined className="text-2xl" style={{ color: '#E1306C' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/yourprofile" passHref>
                 <LinkedinOutlined className="text-2xl" style={{ color: '#0A66C2' }} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -117,7 +116,7 @@ const OurTeam = () => {
               alt="Team Member 3"
               layout="responsive"
               width={80}
-              height={60}
+              height={80}
               className="object-cover"
             />
             <div className="absolute inset-x-0 bottom-0">
@@ -133,24 +132,24 @@ const OurTeam = () => {
           </div>
           <ul className="flex justify-around p-2 bg-gray-100 rounded-b-md">
             <li>
-              <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://twitter.com/yourprofile" passHref>
                 <TwitterOutlined className="text-2xl" style={{ color: '#1DA1F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://facebook.com/yourprofile" passHref>
                 <FacebookOutlined className="text-2xl" style={{ color: '#1877F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://instagram.com/yourprofile" passHref>
                 <InstagramOutlined className="text-2xl" style={{ color: '#E1306C' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/yourprofile" passHref>
                 <LinkedinOutlined className="text-2xl" style={{ color: '#0A66C2' }} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -179,24 +178,24 @@ const OurTeam = () => {
           </div>
           <ul className="flex justify-around p-2 bg-gray-100 rounded-b-md">
             <li>
-              <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://twitter.com/yourprofile" passHref>
                 <TwitterOutlined className="text-2xl" style={{ color: '#1DA1F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://facebook.com/yourprofile" passHref>
                 <FacebookOutlined className="text-2xl" style={{ color: '#1877F2' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://instagram.com/yourprofile" passHref>
                 <InstagramOutlined className="text-2xl" style={{ color: '#E1306C' }} />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <Link href="https://linkedin.com/in/yourprofile" passHref>
                 <LinkedinOutlined className="text-2xl" style={{ color: '#0A66C2' }} />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
