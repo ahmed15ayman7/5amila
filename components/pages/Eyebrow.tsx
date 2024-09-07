@@ -128,7 +128,7 @@ const EyebrowTransplant: React.FC<EyebrowTransplantProps> = ({
     {
       name: 'Dr. Alice Johnson',
       specialty: 'Lead Eyebrow Transplant Surgeon',
-      image: '/images/doc1.webp'
+      image: '/images/doc3.jpg'
     },
     {
       name: 'Dr. Mark Lee',
