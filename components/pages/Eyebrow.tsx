@@ -31,7 +31,7 @@ interface EyebrowTransplantProps {
 }
 
 const EyebrowTransplant: React.FC<EyebrowTransplantProps> = ({
-  topHeroImage = '/images/eyebrow-transplant.webp',
+  topHeroImage = '/images/eyebrow-transplant.jpg',
   title = 'Eyebrow Transplant in Turkey',
   description = 'Transform your look with an eyebrow transplant in Turkey. Our advanced techniques and experienced surgeons provide natural-looking results, tailored to your aesthetic preferences and needs.',
   benefits = [
