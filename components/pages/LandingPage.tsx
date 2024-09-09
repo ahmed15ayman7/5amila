@@ -43,7 +43,7 @@ const LandingPage: React.FC = () => {
                     borderRadius: '8px',
                     marginLeft: '30px', // Adjust this value as needed
                     marginRight: '140px',
-                    marginTop:'130px', // Ensures the button moves left
+                    marginTop:'220px', // Ensures the button moves left
                   }}>
                   About Us
                 </p>
