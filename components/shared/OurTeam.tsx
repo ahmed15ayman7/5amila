@@ -68,7 +68,7 @@ const OurTeam = () => {
         <div className="w-48 border-2 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="relative">
             <Image
-              src="/images/doc2.jpg"
+              src="/images/doc1.webp"
               width={400}
               height={600}
               alt="Team Member 2"
@@ -112,7 +112,7 @@ const OurTeam = () => {
         <div className="w-48 border-2 rounded-lg shadow-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="relative">
             <Image
-              src="/images/doc3.jpg"
+              src="/images/doc1.webp"
               alt="Team Member 3"
               layout="responsive"
               width={80}
