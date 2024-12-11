@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 const blogs = [
   {
     id: 1,
-    title: "Understanding JavaScript Closures",
+    title: "Under-standing JavaScript Closures",
     excerpt: "Closures are a fundamental concept in JavaScript that every developer should understand...",
     image: "/images/blog1.webp",
     author: "Jane Doe",
