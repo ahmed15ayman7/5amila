@@ -10,7 +10,7 @@ const steps = [
   { step:'Step 5', id: 5, title: 'Preparation', description: 'Prepare for your treatment with pre-procedure instructions provided by our team.' },
   { step:'Step 6', id: 6, title: 'Treatment', description: 'Undergo the treatment according to the plan, carried out by our skilled professionals.' },
   { step:'Step 7', id: 7, title: 'Follow-Up', description: 'Attend follow-up appointments to monitor progress and address any concerns.' },
-  { step:'Step 8', id: 8, title: 'Ongoing Care', description: 'Receive ongoing support and care to ensure long-term success and satisfaction.' },
+  { step:'Step 18', id: 8, title: 'Ongoing Care', description: 'Receive ongoing support and care to ensure long-term success and satisfaction.' },
 ];
 
 const faqs = [
